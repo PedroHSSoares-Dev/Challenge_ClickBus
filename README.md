@@ -82,7 +82,7 @@ Este repositório reúne a solução para o **Challenge ClickBus**, dividido em 
 1. **Clone o repositório**  
    ```bash
    git clone https://github.com/PedroHSSoares-Dev/Challenge_ClickBus.git
-   cd challenge_clickbus/challenge
+   cd Challenge_ClickBus
    ```
 2. **Instale as dependências**
   ```bash
