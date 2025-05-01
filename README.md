@@ -1,6 +1,6 @@
-# 🚌 Desafio ClickBus – Roadmap e Entregáveis
+# 🚌 Challenge ClickBus – Roadmap e Entregáveis
 
-Este repositório reúne a solução para o **Desafio ClickBus**, dividido em três sprints sequenciais:
+Este repositório reúne a solução para o **Challenge ClickBus**, dividido em três sprints sequenciais:
 
 - **Sprint 1 - Decodificando o Comportamento do Cliente**  
 - **Sprint 2 - O Timing é Tudo**  
