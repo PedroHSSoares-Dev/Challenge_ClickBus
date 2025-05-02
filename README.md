@@ -1,10 +1,10 @@
 # 🚌 Challenge ClickBus – Roadmap e Entregáveis
 
-Este repositório reúne a solução para o **Challenge ClickBus**, dividido em três sprints sequenciais:
+Este repositório reúne a solução para o **Challenge ClickBus**, dividido em três projetos:
 
-- **Sprint 1 - Decodificando o Comportamento do Cliente**  
-- **Sprint 2 - O Timing é Tudo**  
-- **Sprint 3 - A Estrada à Frente**  
+- **Desafio 1 - Decodificando o Comportamento do Cliente**  
+- **Desafio 2 - O Timing é Tudo**  
+- **Desafio 3 - A Estrada à Frente**  
 
 ---
 
@@ -14,10 +14,10 @@ Este repositório reúne a solução para o **Challenge ClickBus**, dividido em 
 ├── 📄 README.md                 # Visão geral do challenge
 ├── 📄 LICENSE                   # Licença do challenge
 ├── 📄 requirements.txt          # Dependências do challenge
-├── 📁 sprints/                  # Diretório principal para as sprints
-│   ├── 📁 spX_.../              # Estrutura que vai se replicar na pasta da Sprint 1 | 2 | 3
-│   │   ├── 📄 README.md         # Detalhes da Sprint
-│   │   ├── 📁 dados/            # Dados utilizados na Sprint
+├── 📁 desafios/                 # Diretório principal para os desafios
+│   ├── 📁 desafioX_.../         # Estrutura que vai se replicar na pasta do desafio 1 | 2 | 3
+│   │   ├── 📄 README.md         # Detalhes do desafio
+│   │   ├── 📁 dados/            # Dados utilizados no desafio
 │   │   │   ├── 📁 brutos/       # Dados originais
 │   │   │   └── 📁 processados/  # Dados após processamento
 │   │   ├── 📁 notebooks/        # Notebooks Jupyter da Sprint
@@ -36,7 +36,7 @@ Este repositório reúne a solução para o **Challenge ClickBus**, dividido em 
 
 ## 🎯 Objetivos e Entregáveis
 
-### Sprint 1 – Decodificando o Comportamento do Cliente  
+### Desafio 1 – Decodificando o Comportamento do Cliente  
 - **Objetivo**: Segmentar clientes em grupos (VIP, frequentes, ocasionais, dormindo) com base no histórico de compras.  
 - **Extra**: Construir um dashboard interativo para monitorar a evolução desses grupos ao longo do tempo.  
 - **Entregáveis**:  
@@ -46,7 +46,7 @@ Este repositório reúne a solução para o **Challenge ClickBus**, dividido em 
   - Dashboard (Streamlit/Dash)  
   - Predefinição de clusters exportada (CSV)
 
-### Sprint 2 – O Timing é Tudo  
+### Desafio 2 – O Timing é Tudo  
 - **Objetivo**: Prever se cliente comprará nos próximos 7 ou 30 dias (classificação binária).  
 - **Extra**: Prever quantos dias até essa próxima compra (regressão).  
 - **Entregáveis**:  
@@ -57,7 +57,7 @@ Este repositório reúne a solução para o **Challenge ClickBus**, dividido em 
   - API REST para predições (Flask + Docker)  
   - Arquivo CSV com predições para 50.000 clientes
 
-### Sprint 3 – A Estrada à Frente  
+### Desafio 3 – A Estrada à Frente  
 - **Objetivo**: Prever o próximo trecho (origem → destino) de cada cliente (classificação multi-classe ou recomendação).  
 - **Extra**: Juntar previsão de data + trecho em uma única entrega.  
 - **Entregáveis**:  
