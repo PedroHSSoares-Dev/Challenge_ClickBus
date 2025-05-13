@@ -1,0 +1,3 @@
+data/raw/df_t.csv
+data/processed/transacoes_preparado.parquet
+.env
