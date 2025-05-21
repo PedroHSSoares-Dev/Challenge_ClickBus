@@ -14,18 +14,13 @@ Este repositório reúne a solução para o **Challenge ClickBus**, dividido em 
 ├── 📄 README.md                 # Visão geral do challenge
 ├── 📄 LICENSE                   # Licença do challenge
 ├── 📄 requirements.txt          # Dependências do challenge
+├── 📁 data/                     # Dados utilizados no desafio
+│   ├── 📁 raw/                  # Dados originais
+│   └── 📁 processed/            # Dados após processamento
 ├── 📁 desafios/                 # Diretório principal para os desafios
 │   ├── 📁 desafioX_.../         # Estrutura que vai se replicar na pasta do desafio 1 | 2 | 3
 │   │   ├── 📄 README.md         # Detalhes do desafio
-│   │   ├── 📁 dados/            # Dados utilizados no desafio
-│   │   │   ├── 📁 brutos/       # Dados originais
-│   │   │   └── 📁 processados/  # Dados após processamento
 │   │   ├── 📁 notebooks/        # Notebooks Jupyter da Sprint
-│   │   ├── 📁 src/              # Código-fonte da Sprint
-│   │   │   ├── 📁 dados/        # Scripts de manipulação de dados
-│   │   │   ├── 📁 features/     # Scripts de engenharia de atributos
-│   │   │   ├── 📁 modelos/      # Scripts de modelagem
-│   │   │   └── 📁 visualizacao/ # Scripts de visualização
 │   │   └── 📁 relatorios/       # Relatórios e apresentações
 │   │       └── 📁 figuras/      # Imagens e gráficos
 ├── 📁 docs/                     # Documentação geral do challenge
